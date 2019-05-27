@@ -10,9 +10,9 @@ class DB {
 
 	async connect () {
 		try {
-			this.connection = await this.client.connect()
-			this.db = await this.client.db(DB_NAME)
-			return this.connection
+			this.connection = this.client.connect()
+			this.db = this.client.db(DB_NAME)
+			return await this.connection
 		} catch (err) {
 			console.log('DB CONNECT ERR => ', err)
 			return null

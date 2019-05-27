@@ -3,7 +3,7 @@
 This is a simple starting point for a MongoDB Express application, and primarily includes things I have found myself implementing over and over again on every project.
 Besides MongoDB and Express, this template also includes authentication, done with **[bcrypt](https://www.npmjs.com/package/bcrypt)** & **[JWT](https://www.npmjs.com/package/jsonwebtoken)**.
 
-## Table of Contents ##
+### Table of Contents ###
 1. [ Scripts & Syntax. ](#syntax)
 2. [ The Code. ](#code)
 
@@ -41,5 +41,8 @@ The good old BodyParser for express. Makes the bodies from incoming requests ava
 
 **[cors](https://www.npmjs.com/package/cors):**
 The classic CORS middleware. Configure it to dictate which origins can access your API, as well as filtering out unallowed methods.
+
+### The DB Class  ###
+The DB class is meant to simplify database operations, and is built entirely on top of the **[ mongodb library ](https://www.npmjs.com/package/mongodb)** from npm.
 
 

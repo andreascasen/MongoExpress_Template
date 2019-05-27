@@ -10,8 +10,11 @@ Besides MongoDB and Express, this template also includes authentication, done wi
 ### Scripts ###
 
 1. **dev:**
+   
 	Fires up the app locally, defaulting to port 8080.
 2. **build:**
+   
 	"Babels" the code into the **/dist** folder, making it ready for depoyment.
 3. **start:**
+   
 	Fires up the app locally, but from the **/dist** folder. Will fail if the folder is empty.

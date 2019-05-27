@@ -48,7 +48,7 @@ const verifyToken = async token => {
 /**
  * @function authenticateByToken
  * @param { Object } headers
- * @returns { Boolean | Null}
+ * @returns { Boolean | Null }
  */
 export const authenticateByToken = async (headers) => {
 	const { authorization = null } = headers
